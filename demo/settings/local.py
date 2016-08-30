@@ -8,6 +8,8 @@ TEMPLATE_DEBUG = True
 DATABASES['default']['NAME'] = 'timepiece'
 DATABASES['default']['USER'] = ''
 DATABASES['default']['PASSWORD'] = ''
+DATABASES['default']['HOST'] = 'localhost'
+
 
 INTERNAL_IPS = ('127.0.0.1',)
 
